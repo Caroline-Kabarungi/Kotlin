@@ -3,16 +3,18 @@ fun main(){
     var money=deposit(3.545)
     var amount=withdraw(2.567)
     var sentence=details()
+
     var list=("banana")
     println(list.indexOf(0,2,4))
 
 
 
 }
-class currentAccount(accountnumber:Int,accountname:String,balance:Int){
+class currentAccount( var accountnumber:Int,var accountname:String, var balance:Int){
 
 }
 fun deposit(amount:Double){
+
 
 }
 
@@ -22,7 +24,9 @@ fun withdraw(amount:Double){
 fun details(){
 
 }
+//question 2
 class SavingAccount(accountnumber:Int,accountname:String,balance:Int){
+
 
 }
 //question 3
